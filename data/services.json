@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Information Technology",
+    "description": "From network administration to systems engineers,Atlas Quest has the technical knowledge to find the right resource for your company’s IT needs to give suitable IT services using most recent innovations and patterns.",
+    "iconClass": "fa-diamond",
+    "content": ""
+  },
+  {
+    "title": "Bussiness Analytics",
+    "description": "Identifying and retaining skilled Business Analytics personnel can be difficult and cost prohibitive if built in-house. atlas quest provides resources in a managed service capacity to meet our client’s most challenging needs.!",
+    "iconClass": "fa-paper-plane ",
+    "content": ""
+  },
+  {
+    "title": "Staffing",
+    "description": "Atlas Quest staffing team takes pride in building long term relationships with our employers and job seekers in order to fully understand their needs and goals. We are one of the premier staffing and recruiting firms in the country.",
+    "iconClass": "fa-users",
+    "content": ""
+  },
+  {
+    "title": "Consulting",
+    "description": "Atlas Quest Consulting's professionals are leaders in their respective fields with the expertise to help our clients navigate the complicated and ever-changing technology landscape.",
+    "iconClass": "fa-comments-o",
+    "content": ""
+  },
+  {
+    "title": "Engineering",
+    "description": "We will work with you to ensure that candidates aren’t just a technical fit, but also meet your company’s unique requirements.",
+    "iconClass": "fa-outdent",
+    "content": ""
+  },
+  {
+    "title": "Technology and IT",
+    "description": "Atlas Quest provides end to end solutions, whether is UI or Full stack development ",
+    "iconClass": "fa-code",
+    "content": ""
+  },
+  {
+    "title": "Business Analyst",
+    "description": "We provide you the best Business Analyst out there in the market with should have strong communications (verbal/documentation) skills and who would be able to liaison between your Business Partners and Technology Teams to ensure mutual project goals are understood and met in project delivery.",
+    "iconClass": "fa-balance-scale",
+    "content": ""
+  },
+  {
+    "title": "Dev-ops",
+    "description": "For DevOps solutions, Atlas Quest adopts an approach that emphasizes communication, collaboration, integration and automation, thus, removing bottlenecks in software development and ensuring agile delivery for software-driven innovation",
+    "iconClass": "fa-cloud",
+    "content": ""
+  }
+]

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Atlas Quest Career</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+        .icon {
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      div[id^="download"] {
+        display: none;
+      }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default career">
+        <div class="w3layouts-logo">
+            <h1>
+                <a href="index.html"><img src="images/tenx.png" style="width: 100px" alt="atlas quest" /></a>
+            </h1>
+        </div>
+    </nav>
+    <img class="bg_image" src="/images/tenx.png">
+    <div class="row">
+        <div class="center-block">
+            <div class="row">
+                <h4>Enrollment</h4>
+                <label>Please provide following details :</label>
+            </div>
+            <div class="row">
+                <form class="col s12" action="register.php" method="post">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="first_name" name="firstname" type="text" class="validate" required>
+                            <label for="first_name">Full Name</label>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div>
+                        <!-- <div class="input-field col s6">
+                            <input id="last_name" name="lastname" type="text" class="validate" required>
+                            <label for="last_name">Last Name</label>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email_inline" name="email" type="email" class="validate" required>
+                            <label for="email_inline">Email</label>
+                            <span class="helper-text" data-error="Incorrect email"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <label for="dob_cal">Date of Birth</label>
+                            <input id="dob_cal" type="text" class="datepicker" name="dob" required>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="address" type="text" class="validate" name="address" required>
+                            <label for="address">Current Address with Postal Code</label>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="phoneno" type="tel" class="validate" name="phone" required>
+                            <label for="phoneno">Phone Number</label>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="work" type="text" class="validate" name="work" required>
+                            <label for="work">Work Authorisation (Visa)</label>
+                            <span class="helper-text" data-error="This is required"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <label for="relocate">Ready to relocate ?</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <p>
+                                <label>
+                                    <input name="relocate" type="radio" name="reloate" value="yes" checked />
+                                    <span>yes</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input name="relocate" name="reloate" value="no" type="radio" />
+                                    <span>no</span>
+                                </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="ssn" type="text" name="ssn" class="validate">
+                            <label for="ssn">Social Security Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="ed" name="ed" type="text">
+                            <label for="ed">Education Details</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="pss" name="pss" type="text">
+                            <label for="pss">Preferred Skill Sets</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" required/>
+                                    <span>I hereby declare all the above details are correct to the best of my
+                                        knowledge and I provide my consent to atlas quest,
+                                        LLC to use above details to market my profile for job opportunities. *</span>
+                                </label>
+                                <span class="helper-text" data-error="Please agree terms & conditions"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" style="float: right" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+
+
+                </form>
+            </div>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- Compiled and minified JavaScript -->
+            <script type="text/javascript" src="/js/materialize.js"></script>
+
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                     var d = new Date();
+                    $('.datepicker').datepicker({
+                        yearRange: [1950,d.getFullYear()],
+                        autoClose: true
+                    });
+                });
+
+                $('#submitButton').click(function (e) {
+                    $(this).prop('disabled', true);
+                    e.preventDefault();
+
+                    var selected = $("input[type='radio'][name='radios']:checked").val();
+
+                    if (selected == 1) {
+                        $('#downloadA').fadeIn();
+                    } else {
+                        $('#downloadB').fadeIn();
+                    }
+                })
+
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
