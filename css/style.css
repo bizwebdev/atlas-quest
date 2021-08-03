@@ -30,7 +30,7 @@ h5 a {
 }
 
 h5 a:hover {
-  color: #d50a21;
+  color: #e3613a;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h5 a:hover {
 
 .carousel-control {
   background: transparent !important;
-  color: #d50a21;
+  color: #e3613a;
 }
 
 #serviceDesc {
@@ -87,7 +87,7 @@ h5 a:hover {
 }
 
 #servicesContents a {
-  color: #d50a21;
+  color: #e3613a;
 }
 
 #servicesContents a:hover {
@@ -315,16 +315,16 @@ body {
 }
 
 .top-nav ul li a:hover, .sticky .top-nav .navbar .collapse ul li a:hover, .sticky .agileinfo-phone p a:hover {
-  color: #d50a21 !important;
+  color: #e3613a !important;
 }
 
 .top-nav ul li a.active, .sticky .top-nav .navbar .collapse ul li a.active {
-  color: #d50a21 !important;
+  color: #e3613a !important;
   background: none;
 }
 
 ul.dropdown-menu {
-  background: #d50a21;
+  background: #e3613a;
   box-shadow: 0 0 0;
   border: none;
   margin: 0;
@@ -510,10 +510,10 @@ ul.dropdown-menu li:after {
   color: #ffffff;
   font-size: 1em;
   padding: .5em 2em;
-  border: solid 2px #d50a21;
+  border: solid 2px #e3613a;
   text-decoration: none;
   margin: 0;
-  background: #d50a21;
+  background: #e3613a;
 }
 
 .w3ls-button a:hover {
@@ -718,8 +718,8 @@ ul.dropdown-menu li:after {
 }
 
 .callbacks_here a:after {
-  background: #d50a21;
-  border: 2px solid #d50a21;
+  background: #e3613a;
+  border: 2px solid #e3613a;
 }
 
 /*-- //slider --*/
@@ -782,7 +782,7 @@ ul.dropdown-menu li:after {
 
 .w3-welcome-grid-info {
   padding: 1em;
-  border: solid 1px #d50a21;
+  border: solid 1px #e3613a;
   transition: 0.5s all;
   min-height: 380px;
   -webkit-transition: 0.5s all;
@@ -804,7 +804,7 @@ ul.dropdown-menu li:after {
 }
 
 .w3-welcome-grid-info p {
-  color: #d50a21;
+  color: #e3613a;
   font-size: .9em;
   margin: 0;
   line-height: 1.8em;
@@ -816,8 +816,8 @@ ul.dropdown-menu li:after {
 }
 
 .w3-welcome-grid-info:hover {
-  background: #d50a21;
-  border: solid 1px #d50a21;
+  background: #e3613a;
+  border: solid 1px #e3613a;
 }
 
 .w3-welcome-grid-info:hover p {
@@ -835,7 +835,7 @@ ul.dropdown-menu li:after {
 }
 
 .about-heading h3 {
-  color: #d50a21;
+  color: #e3613a;
 }
 
 .about-heading p {
@@ -847,7 +847,7 @@ ul.dropdown-menu li:after {
 }
 
 .about-bottom-left h4 {
-  color: #d50a21;
+  color: #e3613a;
   margin: 0;
   font-size: 1em;
   text-transform: uppercase;
@@ -1025,7 +1025,7 @@ ul.dropdown-menu li:after {
 }
 
 .blog-agileinfo:hover a.wthree-blogimg {
-  border-color: #d50a21;
+  border-color: #e3613a;
 }
 
 .blog-agileinfo a img.img-responsive {
@@ -1075,7 +1075,7 @@ ul.dropdown-menu li:after {
 }
 
 .blog-agileinfo h4 a:hover {
-  color: #d50a21;
+  color: #e3613a;
   text-decoration: none;
 }
 
@@ -1099,7 +1099,7 @@ ul.dropdown-menu li:after {
 }
 
 .blog-agileinfo h6 a:hover {
-  color: #d50a21;
+  color: #e3613a;
   text-decoration: none;
 }
 
@@ -1187,7 +1187,7 @@ ul.dropdown-menu li:after {
 }
 
 .address a:hover {
-  color: #d50a21;
+  color: #e3613a;
 }
 
 .contact-form {
@@ -1232,7 +1232,7 @@ textarea {
 
 .styled-input input:focus~label, .styled-input input:valid~label, .styled-input textarea:focus~label, .styled-input textarea:valid~label, .styled-input select:valid~label {
   font-size: .9em;
-  color: #d50a21;
+  color: #e3613a;
   top: -1.3em;
   -webkit-transition: all 0.125s;
   -moz-transition: all 0.125s;
@@ -1282,7 +1282,7 @@ textarea {
   display: block;
   width: 0;
   height: 2px;
-  background: #d50a21;
+  background: #e3613a;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1315,8 +1315,8 @@ input[type="submit"] {
   font-size: .9em;
   margin: 1em 0 0 0;
   -webkit-appearance: none;
-  background: #d50a21;
-  border: 2px solid #d50a21;
+  background: #e3613a;
+  border: 2px solid #e3613a;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
@@ -1326,7 +1326,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #999999;
-  color: #d50a21;
+  color: #e3613a;
   background: none;
   border: 2px solid #212121;
 }
@@ -1357,7 +1357,7 @@ input[type="submit"]:hover {
 }
 
 .copy-left p a {
-  color: #d50a21;
+  color: #e3613a;
   text-decoration: none;
 }
 
@@ -1514,7 +1514,7 @@ p.adam {
 }
 
 .tweet ul li a i {
-  color: #d50a21;
+  color: #e3613a;
   font-style: normal;
   display: block;
   margin: 2px 0;
@@ -1564,7 +1564,7 @@ i.fa-envelope-o {
 }
 
 .copy-right ul li a:hover, .w3l-footer.three ul li a:hover {
-  color: #d50a21;
+  color: #e3613a;
   text-decoration: none;
 }
 
@@ -1792,7 +1792,7 @@ i.fa-envelope-o {
     margin-right: 10px;
   }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #d50a21;
+    background-color: #e3613a;
   }
   .navbar-default .navbar-toggle {
     border-color: #fff;
@@ -2165,8 +2165,8 @@ i.fa-envelope-o {
 
 .btn-success {
   color: #fff;
-  background-color: #d50a21 !important;
-  border-color: #d50a21 !important;
+  background-color: #e3613a !important;
+  border-color: #e3613a !important;
 }
 
 .about-bottom-grids div p {
